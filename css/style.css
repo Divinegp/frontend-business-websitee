@@ -445,3 +445,27 @@ blockquote::after {
 ::placeholder {
     color: #999 !important;
 }
+
+.follow {
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+
+.contact-info .bi {
+    margin: 10px;
+    color: #007bff;
+    font-weight: bold;
+} 
+
+/* Footer */
+#footer {
+    background: #333;
+    color: #fff;
+    padding: 12px;
+}
+
+.bi-heart-fill {
+    margin: 3px;
+    color: red;
+}

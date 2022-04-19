@@ -33,22 +33,22 @@
                         <a class="nav-link" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="#about">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Our Team</a>
+                        <a class="nav-link" href="#team">Our Team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Price</a>
+                        <a class="nav-link" href="#price">Price</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Testimonials</a>
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -233,7 +233,7 @@
 <section id="promo">
     <div class="container">
         <p>Get Free Domain Name and Web Hosting</p>
-        <a href="#" class="btn btn-primary">Contact Us</a>
+        <a href="#contact" class="btn btn-primary">Contact Us</a>
     </div>
 </section>
 
@@ -373,26 +373,54 @@
                 <form action="#" class="contact-form">
                     <div class="form-group">
                         <input type="text" name="name" id="name" class="form-control" placeholder="Your Name">
-                    </div>
+                    </div><br>
                     <div class="form-group">
-                        <input type="tel" name="tel" id="tel" class="form-control" placeholder="Phone Number">
-                    </div>
+                        <input type="number" name="tel" id="tel" class="form-control" placeholder="Phone Number">
+                    </div><br>
                     <div class="form-group">
                         <input type="email" name="email" id="email" class="form-control" placeholder="Email id">
-                    </div>
+                    </div><br>
                     <div class="form-group">
                         <textarea name="msg" id="msg" rows="4" placeholder="Your Message"></textarea>
-                    </div>
+                    </div><br>
                     <button type="submit" class="btn btn-primary">Send Message</button>
                 </form>
             </div>
             <div class="clo-md-6 contact-info">
                 <div class="follow">
-                    <b>Address</b> No. 156 Onuiyi Road, Behind Zik's Flat, Nsukka
+                    <b>Address:</b><i class="bi bi-geo-alt-fill"></i> No. 156 Onuiyi Road, Behind Zik's Flat, Nsukka
+                </div>
+                <div class="follow">
+                    <b>Phone:</b><i class="bi bi-whatsapp"></i> +2348061599859
+                </div>
+                <div class="follow">
+                    <b>Phone:</b><i class="bi bi-telephone-fill"></i></i> +2348061599859
+                </div>
+                <div class="follow">
+                    <b>Email:</b> <i class="bi bi-envelope-fill"></i> info@dhcomputer.com.ng
+                </div>
+                <div class="follow">
+                    <label><b>Get Social</b></label>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-github"></i></a>
                 </div>
             </div>
-        </div>
+        </div> <!--- Row colsed here -->
+    </div> <!--- Container colsed here -->
+</section>
+
+<!-- Footer -->
+<section id="footer">
+    <div class="container text-center">
+        <p>Powered <i class="bi bi-heart-fill"></i> by Divine Heritage Computer</p>
     </div>
 </section>
+<!-- Footer End -->
+<script src="js/smooth-scroll.js"></script>
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
 </body>
 </html>
